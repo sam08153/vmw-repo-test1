@@ -30,14 +30,4 @@ public class taskGenerationController {
         return service.getTask(UUID, action);
     }
 
-//    @GetMapping(value = "tasks/{UUID}/status", produces = MediaType.APPLICATION_JSON_VALUE)
-//    public ResponseEntity createTask( @PathVariable(value = "UUID", required = true) Integer UUID,
-//                                      @RequestParam(value = "action", required = true) String action){
-//        if (action.equals("get_numlist")) {
-//            return service.getResults(UUID);
-//        }
-//        return service.resultNotFound();
-//    }
-
-
 }
