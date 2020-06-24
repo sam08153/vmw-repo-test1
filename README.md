@@ -14,9 +14,9 @@ switch to repo
 	mvn spring-boot:run
 	
     then browse to API below
-   	- generate task- http://localhost:16000/api/generate
-	- getTask using UUID - http://localhost:16000/api/tasks/{UUID}/status
-	- getResult using UUID - http://localhost:16000/api/tasks/{UUID}/status?action=get_numlist
+   	- POST - generate task- http://localhost:16000/api/generate
+	- GET- getTask using UUID - http://localhost:16000/api/tasks/{UUID}/status
+	- GET - getResult using UUID - http://localhost:16000/api/tasks/{UUID}/status?action=get_numlist
 	
 
 4. Instruction for running the Build
@@ -26,6 +26,6 @@ switch to repo
 	run - jar -xf target/task1API-0.0.1-SNAPSHOT.jar
 	
 	then browse to API below
-   	- generate task- http://localhost:16000/api/generate
-	- getTask using UUID - http://localhost:16000/api/tasks/{UUID}/status
-	- getResult using UUID - http://localhost:16000/api/tasks/{UUID}/status?action=get_numlist
+   	- POST - generate task- http://localhost:16000/api/generate
+	- GET - getTask using UUID - http://localhost:16000/api/tasks/{UUID}/status
+	- GET - getResult using UUID - http://localhost:16000/api/tasks/{UUID}/status?action=get_numlist
