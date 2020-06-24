@@ -8,7 +8,7 @@ clone the repo
 switch to repo
 2. run - cd vmw-repo-test1
 
-3. Instruction run app locally
+3. Instruction to run app locally
 
  To run the Dev locally - 
 	mvn spring-boot:run
