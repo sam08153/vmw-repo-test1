@@ -1,5 +1,26 @@
+
+
 # vmw-repo-test1
 
-run app locally:
+clone the repo
+1. run - clone the repo - git clone https://github.com/sam08153/vmw-repo-test1.git
 
-mvn spring-boot:run
+switch to repo
+2. run - cd vmw-repo-test1
+
+3. Instruction run app locally
+
+ To run the Dev locally - 
+	mvn spring-boot:run
+	
+    then browse to API below
+   	generate task- http://localhost:16000/api/generate
+	getTask using UUID - http://localhost:16000/api/tasks/{UUID}/status
+	getResult using UUID - http://localhost:16000/api/tasks/{UUID}/status?action=get_numlist
+	
+
+4. Instruction for running the Build
+
+	run -  mvn clean package spring-boot:repackage
+	
+	run - jar -xf target/task1API-0.0.1-SNAPSHOT.jar
