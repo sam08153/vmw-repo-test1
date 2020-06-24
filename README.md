@@ -24,3 +24,8 @@ switch to repo
 	run -  mvn clean package spring-boot:repackage
 	
 	run - jar -xf target/task1API-0.0.1-SNAPSHOT.jar
+	
+	then browse to API below
+   	generate task- http://localhost:16000/api/generate
+	getTask using UUID - http://localhost:16000/api/tasks/{UUID}/status
+	getResult using UUID - http://localhost:16000/api/tasks/{UUID}/status?action=get_numlist
